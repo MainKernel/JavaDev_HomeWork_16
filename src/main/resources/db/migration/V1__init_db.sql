@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS note
+(
+    id    BIGSERIAL PRIMARY KEY,
+    title VARCHAR(200),
+    content VARCHAR(1000)
+);
